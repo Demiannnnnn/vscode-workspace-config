@@ -1,0 +1,73 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    // --- RUST ---
+    {
+      "label": "cargo build",
+      "type": "shell",
+      "command": "cargo",
+      "args": ["build"],
+      "problemMatcher": ["$rustc"],
+      "group": "build"
+    },
+    {
+      "label": "cargo run",
+      "type": "shell",
+      "command": "cargo",
+      "args": ["run"],
+      "problemMatcher": ["$rustc"],
+      "group": "build"
+    },
+    {
+      "label": "cargo test",
+      "type": "shell",
+      "command": "cargo",
+      "args": ["test"],
+      "problemMatcher": ["$rustc"],
+      "group": "test"
+    },
+
+    // --- NODE.JS / JS / TS ---
+    {
+      "label": "npm install",
+      "type": "shell",
+      "command": "npm",
+      "args": ["install"],
+      "problemMatcher": []
+    },
+    {
+      "label": "npm run dev",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "dev"],
+      "isBackground": true,
+      "problemMatcher": ["$tsc-watch"], // Ideal para TypeScript
+      "group": "build"
+    },
+    {
+      "label": "npm test",
+      "type": "shell",
+      "command": "npm",
+      "args": ["test"],
+      "problemMatcher": [],
+      "group": "test"
+    },
+
+    // --- PYTHON ---
+    {
+      "label": "pytest",
+      "type": "shell",
+      "command": "pytest",
+      "args": [],
+      "problemMatcher": [],
+      "group": "test"
+    },
+    {
+      "label": "pip install requirements",
+      "type": "shell",
+      "command": "pip",
+      "args": ["install", "-r", "requirements.txt"],
+      "problemMatcher": []
+    }
+  ]
+}

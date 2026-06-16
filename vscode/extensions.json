@@ -1,0 +1,38 @@
+{
+  "recommendations": [
+    // General
+    "editorconfig.editorconfig",
+    "christian-kohler.path-intellisense",
+    "shardulm94.trailing-spaces",
+    "oderwat.indent-rainbow",
+
+    // Rust
+    "rust-lang.rust-analyzer",
+    "vadimcn.vscode-lldb",
+    "tamasfe.even-better-toml",
+
+    // Python
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.debugpy",
+    "charliermarsh.ruff",
+
+    // Node / JS / TS / React
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ms-vscode.vscode-typescript-next",
+    "dsznajder.es7-react-js-snippets",
+
+    // Java / Spring Boot
+    "vscjava.vscode-java-pack",
+    "vscjava.vscode-spring-boot-dashboard",
+    "vmware.vscode-spring-boot",
+
+    // SQL
+    "mtxr.sqltools",
+    "mtxr.sqltools-driver-pg", // PostgreSQL as default example
+
+    // Docker
+    "ms-azuretools.vscode-docker"
+  ]
+}
